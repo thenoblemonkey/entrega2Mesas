@@ -1,0 +1,139 @@
+body{
+	margin: 0 auto;
+}
+
+.wrapper
+{
+width: 768px;
+margin: auto;	
+}
+
+header{
+	display:inline-block;
+	font-size: 2em;
+	width:100%;
+	background-color: #41C386;
+
+}
+	header hgroup{
+		display: inline-block;
+		color: white;
+		background-color: #41C386;
+		width:80%;
+	}
+		h1{
+			margin :0;
+			margin-left: 5%;
+			font-size: 2em;
+		}
+	nav{
+		display: inline-block;
+		width:18%;
+		background-color: #41C386;
+	}
+		li {
+			list-style-type: none;
+			display: inline-block;
+			text-align: center;
+			width:48%;
+			margin:0 auto;
+			float:left;
+			border-left-color:white;
+			border-left-width: 1px;
+			border-left-style:solid;
+		}
+			a{
+				text-align: center;
+				width:19%;
+			}
+.titulo{
+	width:50%;
+	background-color: #41C386;
+	margin-top: 20px;
+}
+	.titulo hgroup{
+		margin:0px;
+		padding:0px;
+	}
+		.titulo hgroup h2{
+			color:white;
+			font-size:2em;
+			margin:0px 20px;
+			text-align:left center;
+		}
+section{
+	margin :20px;
+}
+	article{
+		margin-top:15px;
+	}		
+		article figure {	
+			display: inline-block;
+		}
+			article figure img{
+				padding :10px 20px 0px 10px;
+				width: 50px;
+				height: 50px;
+				vertical-align: text-top;
+			}
+		article div{
+			display: inline-table;
+			vertical-align: -5px;
+		}
+			article div hgroup{
+				padding-top: 2px;
+			}
+				article hgroup h1{
+					margin :0;
+					color:#41C386;
+					font-weight:bold;
+					font-size: 16px;
+					display: inline-block;
+					margin-right: 10px;
+				}
+				article hgroup h2{
+					margin :0;
+					color:black;
+					font:bold;
+					font-size: 16px;
+					display: inline-block;
+				}
+				article hgroup h3{
+					margin:0;
+					color:gray;
+					font-size: 12px;
+				}
+				article hgroup p{
+					margin :2px 0 0 0;
+					color:gray;
+					font-size: 12px;
+					width:300px;
+				}
+footer{
+
+	background-color: #424242;
+	text-align:center;
+	position: fixed ;
+	margin: 0 auto;
+	top: 100%;
+	margin-top: -3em;
+
+	width:100%;
+} 
+
+.botones{
+	margin: 0 auto;
+	width: 768px;
+}
+	footer figure{
+		background-color: #4D4D4D;
+		display:inline-block;
+		margin:0 auto,0 auto;
+		width:24%;		
+	}
+		footer figure img{
+			display: inline-block;
+			padding-top: 0.3em;
+			padding-bottom: 0.3em;
+			width: 2.5em;
+		}
